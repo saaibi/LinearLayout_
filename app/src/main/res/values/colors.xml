@@ -3,7 +3,15 @@
     <color name="colorPrimary">#d86a17</color>
     <color name="colorPrimaryDark">#2158c6</color>
     <color name="colorAccent">#cf2013</color>
+
+    <!--Color Content_second-->
     <color name="blue">#2158c6</color>
     <color name="green">#22c713</color>
     <color name="red">#e2081d</color>
+
+    <!--Color Content_Main-->
+    <color name="blue_">#79a38f</color>
+    <color name="yellow_">#f5eaaa</color>
+    <color name="orange_">#f6be8f</color>
+    <color name="red_">#e1837b</color>
 </resources>
