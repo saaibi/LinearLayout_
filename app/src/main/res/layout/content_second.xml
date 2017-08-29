@@ -5,76 +5,70 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="6"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.saaibi.linearlayout_h_v.SecondActivity"
     tools:showIn="@layout/activity_second">
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_weight="3"
-        android:background="@android:color/holo_red_dark"
-        android:gravity="center"
-        android:orientation="horizontal"></LinearLayout>
-
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:background="@color/red">
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/holo_blue_dark"
-        android:orientation="horizontal"
-        android:weightSum="1">
-
+        android:layout_height="0dp"
+        android:layout_weight="4">
         <LinearLayout
-            android:layout_width="126dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:background="@android:color/holo_green_dark"
-            android:orientation="vertical">
-
+            android:background="@color/green"
+            android:orientation="vertical"
+            android:layout_weight="2">
         </LinearLayout>
-
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="4"
             android:orientation="vertical">
-
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="113dp"
-                android:background="@android:color/holo_blue_dark"
-                android:orientation="horizontal"></LinearLayout>
-
+                android:layout_height="0dp"
+                android:background="@color/blue"
+                android:layout_weight="1">
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#11de03"
-                android:orientation="horizontal"
-                android:weightSum="1">
-
+                android:layout_height="0dp"
+                android:layout_weight="2">
                 <LinearLayout
-                    android:layout_width="96dp"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:background="@android:color/holo_red_dark"
-                    android:orientation="vertical"></LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@android:color/holo_blue_dark"
+                    android:background="@color/red"
+                    android:layout_weight="2"
                     android:orientation="vertical">
-
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:orientation="vertical">
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="90dp"
-                        android:background="@android:color/holo_green_dark"
-                        android:orientation="horizontal"></LinearLayout>
-
+                        android:layout_height="0dp"
+                        android:background="@color/green"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="@color/blue"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+                    </LinearLayout>
                 </LinearLayout>
-
             </LinearLayout>
-
         </LinearLayout>
     </LinearLayout>
-
-
 </LinearLayout>
